@@ -28,7 +28,12 @@ public class Main {
 		p1.prix_de_chaque_colis();
 		p2.prix_de_chaque_colis();
 
-		//
+		//Tests des horaires.
+
+		p1.Ajouterhoraires("Lundi","10:00","12:00");
+		p1.Ajouterhoraires("Lundi","14:00","19:00");
+
+		p1.Afficherhoraires();
 
 
 
